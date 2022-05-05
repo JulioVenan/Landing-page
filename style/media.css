@@ -9,6 +9,7 @@
     }
     h2{
         font-size: 38px;
+        
     }
 
     form{
@@ -20,6 +21,7 @@
         align-self: center;
     }
     img{
+       
         display: none;
     }
 
@@ -27,4 +29,21 @@
     text-align: center;
     }
 
+}
+@media screen and (max-width: 927px){
+
+img{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+    
+p{
+    text-align: center;
+}
+aside{
+    margin: auto;
+}
 }
